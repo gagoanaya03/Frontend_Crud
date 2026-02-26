@@ -78,7 +78,6 @@ export default function Sidebar({ isOpen, onClose }) {
 
         {/* Footer */}
         <div className="px-4 py-4 border-t border-dark-600">
-          <p className="text-xs text-gray-600 text-center">CRUD v1.0</p>
         </div>
       </aside>
     </>
