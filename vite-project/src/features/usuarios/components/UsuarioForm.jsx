@@ -5,13 +5,13 @@ import Select from '../../../ui/base/Select';
 import Button from '../../../ui/base/Button';
 
 const rolOptions = [
-  { value: 'Admin', label: 'Admin' },
-  { value: 'User', label: 'User' },
+  { value: 'admin', label: 'Admin' },
+  { value: 'user', label: 'User' },
 ];
 
 const estadoOptions = [
-  { value: 'Activo', label: 'Activo' },
-  { value: 'Inactivo', label: 'Inactivo' },
+  { value: 'activo', label: 'Activo' },
+  { value: 'inactivo', label: 'Inactivo' },
 ];
 
 const initialForm = {

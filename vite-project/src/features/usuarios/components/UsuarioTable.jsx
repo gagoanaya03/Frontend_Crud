@@ -4,13 +4,13 @@ import Badge from '../../../ui/base/Badge';
 import Spinner from '../../../ui/base/Spinner';
 
 const rolVariant = {
-  Admin: 'info',
-  User: 'warning',
+  admin: 'info',
+  user: 'warning',
 };
 
 const estadoVariant = {
-  Activo: 'success',
-  Inactivo: 'danger',
+  activo: 'success',
+  inactivo: 'danger',
 };
 
 export default function UsuarioTable({ usuarios, onDelete, loading }) {
